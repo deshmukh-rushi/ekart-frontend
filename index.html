@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKART | PRODUCTS</title>
+    <link rel = "stylesheet" href = "static/css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b>Ekart</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="Product Details.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="About.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="Contact Us.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="register.html">Register</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Product Types
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Clothes</a></li>
+                            <li><a class="dropdown-item" href="#">Grocery</a></li>
+                            <li><a class="dropdown-item" href="#">Electronics</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+        
+        <br>
+            <div class="row">
+                <div class="col-md-3 mt-4 bg-light bg-gradient">
+                    <div class = "container ">
+                        <h5>Filtering and Sorting</h5>
+                        <hr> 
+                        <p><a href = "#" class = "anchor">Filter by Clothes</a></p>
+                        <p><a href = "#" class = "anchor">Filter by Shoes</a></p>
+                        <p><a href = "#" class = "anchor">Filter by Watches</a></p>
+                        <p><a href = "#" class = "anchor">Filter by Mobile</a></p>
+                        <h5>Filter by Price</h5>
+                        <hr>
+                        <p><a href = "#" class = "anchor">High to Low</a></p>
+                        <p><a href = "#" class = "anchor">Low to High</a></p>
+
+                    </div>
+                    <div class = "container">
+                        <h5>Sort by Price</h5>
+                        <hr> 
+                        <form>
+                            <label class = 'form-label' id = "min" name = "min">Minimum</label>
+                            <input type = "number" class = 'form-control' id = "min" name = "min">
+                            <label class = 'form-label' id = "max" name = "min">Maximum</label>
+                            <input type = "number" class = 'form-control' id = "max" name = "max"><br>
+                            <button type = "submit" class = "btn-danger">Search</button>
+                        </form>
+                    </div>
+                </div>    <!--end of sorting and filtering -->
+                <div class="col-md-9 mt-4 bg-light p-3">
+                    <h5>Product List</h5>
+                    <hr>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 100%; height:100%">
+                            <img src="static/images/product1.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Apple Watch Series 9</h5>
+                            <p class="card-text">Product Details 1.</p>
+                            <a href="Product Details.html" class="btn btn-primary">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>   <!--Product 1 -->
+                    <div class="col-sm-3 gap-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/Product 2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Apple Watch Series 9</h5>
+                            <p class="card-text">Product Detail 1</p>
+                            <a href="Product Details.html" class="btn btn-primary">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>   <!--Product 2 -->
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/Product 3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Apple Watch Series 9</h5>
+                            <p class="card-text">Product Details 1</p>
+                            <a href="#" class="btn btn-danger">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>   <!--Product 3 -->
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/Product 4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Apple Watch Series 9</h5>
+                            <p class="card-text">Product Details 1.</p>
+                            <a href="#" class="btn btn-primary">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>   <!--Product 4 -->
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/Product 5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Apple Watch Series 9</h5>
+                            <p class="card-text">Product Detail 2</p>
+                            <a href="#" class="btn btn-primary">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>   <!--Product 5 -->
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/Product 6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Apple Watch Series 9</h5>
+                            <p class="card-text">Product Detail 2</p>
+                            <a href="#" class="btn btn-primary">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>   <!--Product 6 -->
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/Product 7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Apple Watch Series 9</h5>
+                            <p class="card-text">Product Detail 2</p>
+                            <a href="#" class="btn btn-primary">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>   <!--Product 7 -->
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/Product 8.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Apple Watch Series 9</h5>
+                            <p class="card-text">Product Detail 2</p>
+                            <a href="#" class="btn btn-primary">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>   <!--Product 8 -->
+                    <div class="col-sm-3">
+                        <div class="card" style="width: 100%;">
+                            <img src="static/images/Product 9.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Apple Watch Series 9</h5>
+                            <p class="card-text">Product Detail 2</p>
+                            <a href="#" class="btn btn-primary">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>   <!--Product 9 -->
+                </div>
+            </div>    <!--Product list -->
+        </div> 
+        <!-- Footerr Start -->
+            <div class="row ">
+                <div class="col-md-4 bg-secondary p-3">
+                        <div class="container text">
+                            <h5 style = "text-align: center;">Address</h5>
+                            <hr>
+                                ITVEDANT,LandMark Building, <br>
+                                Behind Starbucks, FC Road, <br>
+                                Pune, <br>
+                                Maharashtra, <br>
+                                411051
+                        </div>
+                </div>   <!--End of address -->
+            
+                <div class="col-md-4 bg-secondary subtle p-3">
+                   
+                        <h5>Quick Links</h5>
+                        <hr>
+                        <p><a href = "#" class = "anchor">Products</a></p>
+                        <p><a href = "#" class = "anchor">About</a></p>
+                        <p><a href = "#" class = "anchor">Contact</a></p>
+                        <p><a href = "register.html" class = "anchor">Register</a></p>
+
+                </div>   <!--End of quicklinks-->
+                <div class="col-md-4 bg-secondary subtle p-3">
+                    <h5>Connect Us</h5>
+                    <hr>
+                  <!-- <h5 class = "social"><a href = "http://www.facebook.com" target = "_blank"><i class="bi bi-facebook"></i></a> </h5>
+                   <h5 class = "social"><a href = "http://www.facebook.com" target = "_blank"><i class="bi bi-instagram"></i></a> </h5>
+                   <h5 class = "social"><a href = "http://www.facebook.com" target = "_blank"><i class="bi bi-twitter"></i></a> </h5>
+                   <h5 class = "social"><a href = "http://www.facebook.com" target = "_blank"><i class="bi bi-linkedin"></i></a> </h5>-->
+                   <h5 class = "social"><a href = "http://www.instagram.com"><i class="bi bi-instagram"></i></a></h5><br>
+                   <h5 class = "social"><a href = "http://www.facebook.com"><i class="bi bi-facebook"></i></a></h5><br>
+                   <h5 class = "social"><a href = "http://www.map.com"><i class="bi bi-map"></i></a></h5><br>
+                   <h5 class = "social"><a href = "http://www.twitter.com"><i class="bi bi-twitter"></i></a></h5><br>
+                   <h5 class = "social"><a href = "http://www.whatsapp.com"><i class="bi bi-whatsapp"></i></a></h5>
+                </div>  <!--end of social media icons -->
+            </div>
+
+
+
+
+
+
+
+
+    <script src = "static/js/bootstrap.min.js"></script>
+    <script src = "static/js/popper.js"></script>
+</body>
+</html>

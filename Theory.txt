@@ -1,0 +1,14 @@
+EKART
+
+Navigation bar
+1.products
+2.about
+3.contact
+4.register
+5.logout
+
+
+footer
+address
+ouiklinks
+social media icons
